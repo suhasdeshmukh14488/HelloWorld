@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Hello World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">Hello World</a>
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="stage">
+    <svg class="waves waves-top" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <path class="line l1" d="M0,60 C150,10 300,110 450,60 S750,10 900,60 S1100,100 1200,50"/>
+      <path class="line l2" d="M0,75 C150,25 300,125 450,75 S750,25 900,75 S1100,115 1200,65"/>
+      <path class="line l3" d="M0,90 C150,40 300,140 450,90 S750,40 900,90 S1100,130 1200,80"/>
+    </svg>
+
+    <section class="page">
+      <h1 class="page-title"><span class="word">About</span></h1>
+      <svg class="divider small" viewBox="0 0 600 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="dg" x1="0" x2="1">
+            <stop offset="0" stop-color="#ff4d8d"/>
+            <stop offset="0.5" stop-color="#ffd23f"/>
+            <stop offset="1" stop-color="#2de2e6"/>
+          </linearGradient>
+        </defs>
+        <line class="draw" x1="10" y1="20" x2="270" y2="20" stroke="url(#dg)" stroke-width="3" stroke-linecap="round"/>
+        <rect x="288" y="8" width="24" height="24" rx="3" transform="rotate(45 300 20)" fill="none" stroke="#ffd23f" stroke-width="3"/>
+        <line class="draw" x1="330" y1="20" x2="590" y2="20" stroke="url(#dg)" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+
+      <div class="content">
+        <p>This site is my first project in a GitHub learning folder. I built it to practice writing HTML and CSS, and to get comfortable saving, committing and publishing a small project.</p>
+        <p>Each page is plain HTML with one shared stylesheet, so changing a color in <code>style.css</code> updates every page at once.</p>
+
+        <h2>What I'm learning</h2>
+        <ul class="chips">
+          <li class="chip c-pink">HTML</li>
+          <li class="chip c-yellow">CSS</li>
+          <li class="chip c-cyan">Git</li>
+          <li class="chip c-violet">GitHub</li>
+        </ul>
+
+        <p class="cta-row">Want to get in touch? <a class="btn" href="contact.html">Go to the Contact page</a></p>
+      </div>
+    </section>
+
+    <svg class="waves waves-bottom" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <path class="line l1" d="M0,60 C150,110 300,10 450,60 S750,110 900,60 S1100,20 1200,70"/>
+      <path class="line l2" d="M0,75 C150,125 300,25 450,75 S750,125 900,75 S1100,35 1200,85"/>
+      <path class="line l3" d="M0,90 C150,140 300,40 450,90 S750,140 900,90 S1100,50 1200,100"/>
+    </svg>
+  </main>
+</body>
+</html>
